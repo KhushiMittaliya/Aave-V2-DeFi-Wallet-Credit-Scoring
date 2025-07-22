@@ -31,3 +31,46 @@ The credit scores were segmented into 10 bins (0–100, 100–200, ..., 900–10
 | 700–800     | ████         |
 | 800–900     | ██           |
 | 900–1000    | █            |
+
+
+
+> *(For real plots, use `sns.histplot(df['score'], bins=10)` in the notebook)*
+
+---
+
+##  Behavior of Wallets – Cluster-wise Insights
+
+### Cluster 0: Responsible Users (800–1000)
+- **Traits**: High deposit & repay values, healthy repay-to-borrow ratio, low liquidation count
+- **Usage**: Regular, long-term users or institutions
+- **Trust Level**: High – these wallets are good candidates for undercollateralized lending or premium benefits
+
+### Cluster 1: Average Users (400–799)
+- **Traits**: Moderate deposit and borrow values, fair ratios, standard activity
+- **Usage**: Typical DeFi retail users or new entrants
+- **Trust Level**: Medium – these users show healthy usage but not exceptional reliability
+
+### Cluster 2: Risky/Bot-like Users (0–399)
+- **Traits**: Low repayments, high borrow-to-deposit ratio, some liquidation history
+- **Usage**: Exploitative patterns or bot-driven activity
+- **Trust Level**: Low – these users may default or abuse lending mechanics
+
+---
+
+## Key Takeaways
+
+- Clustering users allows platforms like Aave to **profile risk** without accessing private data.
+- Behavior-based scores reflect the **real usage trends** of DeFi users.
+- This model could help design **trust-based lending**, **reputation scores**, or **DeFi credit limits**.
+
+---
+
+##  Future Scope
+
+- Include time-series behavior for trend analysis (e.g., how behavior changes over weeks)
+- Merge on-chain data from other protocols (e.g., Compound, MakerDAO) to build holistic scores
+- Integrate wallet identity tools (ENS, Lens Protocol) for better user reputation tracking
+
+---
+
+
