@@ -4,14 +4,14 @@
 
 This project develops a credit scoring model for DeFi wallets using 100K+ raw transaction records from the Aave V2 lending protocol. Each wallet’s behavior is analyzed based on actions like deposit, borrow, repay, and liquidation. A machine learning pipeline assigns a **credit score (0–1000)** reflecting the wallet’s reliability and risk.
 
-## 🎯 Objective
+##  Objective
 
 To build a data-driven scoring system that:
 - Analyzes wallet-level transactional behavior
 - Clusters users with similar DeFi behaviors
 - Assigns credit scores to wallets to distinguish between responsible users and risky or exploitative ones
 
-## 🛠️ Methodology
+##  Methodology
 
 1. **Data Preprocessing**:
    - Loaded Aave V2 transaction data from JSON
@@ -35,7 +35,7 @@ To build a data-driven scoring system that:
    - Elbow plot for cluster validation
    - Score distribution graph for reporting
 
-## 📊 Features Used
+##  Features Used
 
 - `total_deposit_usd`
 - `total_borrow_usd`
@@ -45,7 +45,7 @@ To build a data-driven scoring system that:
 - `transaction_count`
 - `unique_assets_used`
 
-## 📁 Files Included
+## Files Included
 
 | File Name                      | Description                                         |
 |-------------------------------|-----------------------------------------------------|
@@ -62,7 +62,7 @@ To build a data-driven scoring system that:
   - 400–799: Average users
   - 0–399: Risky or bot-like wallets
 
-## 📌 Requirements
+## Requirements
 
 ```bash
 pandas
