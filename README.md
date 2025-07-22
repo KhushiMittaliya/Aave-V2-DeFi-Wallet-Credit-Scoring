@@ -62,6 +62,10 @@ To build a data-driven scoring system that:
   - 400–799: Average users
   - 0–399: Risky or bot-like wallets
 
+git clone https://github.com/KhushiMittaliya/Aave-V2-DeFi-Wallet-Credit-Scoring.git
+cd Aave-V2-DeFi-Wallet-Credit-Scoring
+jupyter notebook
+
 ## Requirements
 
 ```bash
@@ -70,3 +74,5 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+
+
