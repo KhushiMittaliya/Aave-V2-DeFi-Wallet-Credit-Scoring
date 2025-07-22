@@ -19,3 +19,15 @@ Each wallet in the dataset was assigned a cluster and scored accordingly. Cluste
 The credit scores were segmented into 10 bins (0–100, 100–200, ..., 900–1000). The graph below shows the number of wallets in each score range:
 
 
+| Score Range | Wallet Count |
+| ----------- | ------------ |
+| 0–100       | ████████     |
+| 100–200     | ███████████  |
+| 200–300     | ████████████ |
+| 300–400     | █████████    |
+| 400–500     | ████████     |
+| 500–600     | ███████      |
+| 600–700     | █████        |
+| 700–800     | ████         |
+| 800–900     | ██           |
+| 900–1000    | █            |
