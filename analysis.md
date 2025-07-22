@@ -1,6 +1,6 @@
 # 📈 Credit Score Analysis – Aave V2 DeFi Wallet Scoring
 
-## 🧩 Clustering Summary
+##  Clustering Summary
 
 After applying K-Means clustering to wallet-level behavioral features, we identified **3 major user clusters**, each representing a unique type of DeFi user based on their transaction behavior on Aave V2.
 
