@@ -50,7 +50,7 @@ The credit scores were segmented into 10 bins (0–100, 100–200, ..., 900–10
 - **Usage**: Typical DeFi retail users or new entrants
 - **Trust Level**: Medium – these users show healthy usage but not exceptional reliability
 
-### Cluster 2: Risky/Bot-like Users (0–399)
+### Cluster 2: Risky Users (0–399)
 - **Traits**: Low repayments, high borrow-to-deposit ratio, some liquidation history
 - **Usage**: Exploitative patterns or bot-driven activity
 - **Trust Level**: Low – these users may default or abuse lending mechanics
